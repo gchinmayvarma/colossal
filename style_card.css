@@ -1,4 +1,4 @@
-.cards {
+#cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,7 +6,6 @@
 
 .card {
     display: flex;
-
     width: 331px;
     height: 468px;
     transform: scale(0.9);
@@ -18,7 +17,7 @@
 
 .card:hover {
     transform: scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 1);
     margin: 15px;
     transition: 1s;
 }
@@ -34,4 +33,9 @@
     color: #ddd;
     font-size: 18px;
     margin-top: -15px;
+}
+
+.card_new {
+    border-radius: 10px;
+    border-color: red;
 }
